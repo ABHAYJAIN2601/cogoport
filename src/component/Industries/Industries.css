@@ -1,0 +1,11 @@
+.industry_container{
+    display: flex;
+    flex-flow: row wrap;
+    align-content: space-between;
+    justify-content: space-between;
+}
+.industry_wrapper{
+    padding: 16px!important;
+    margin-bottom: 50px;
+    background: #fffef3;
+}

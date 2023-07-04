@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  font-family: Ubuntu;
 }
 
 .App-logo {
@@ -23,11 +24,23 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
-
+.first{
+  position: relative;
+  width: 100%;
+  padding-top: 57px;
+  margin-top: -57px;
+  /* background: url(https://cdn.cogoport.io/cms-prod/cogo_public/vault/original/home-banner-background-1.webp); */
+  background-color: var(--color-secondary);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: 100%;
+}
 .App-link {
   color: #61dafb;
 }
-
+.first-left{
+  z-index: 100;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
