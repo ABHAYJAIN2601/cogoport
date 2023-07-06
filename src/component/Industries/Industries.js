@@ -32,7 +32,10 @@ const Industries = () => {
     ]
     return ( 
         <div className='industry_wrapper'>
-            <p>Industries Served</p>
+            <div className='test-industry'>
+
+          
+            <h3>Industries Served</h3>
             <div className="industry_container">
             {industry.map((item)=>{
             return<div>
@@ -41,6 +44,7 @@ const Industries = () => {
                 <p>{item.name}</p>
                 </div>
             </div>})}
+            </div>
             </div>
         </div>
      );

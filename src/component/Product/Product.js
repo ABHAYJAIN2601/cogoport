@@ -5,7 +5,7 @@ import './Product.css';
 function Product() {
   return (
     <div>
-        <p>Our Products</p>
+        <h3>Our Products</h3>
         <div className='products_container'>
         {product.map((items) => {
             return  (<div className='product_category'>

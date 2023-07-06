@@ -3,6 +3,12 @@
     flex-flow: row wrap;
     align-content: space-between;
     justify-content: space-between;
+    
+}
+.test-industry{
+    margin-left: auto;
+    margin-right: auto;
+    padding: 16px;
 }
 .industry_wrapper{
     padding: 16px!important;

@@ -1,0 +1,14 @@
+.know-more-wrapper{
+    /* display: flex; */
+    /* align-items: center; */
+}
+.know-more-footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.know-more-left{
+    text-align: left;
+}

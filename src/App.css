@@ -1,20 +1,29 @@
 .App {
   text-align: center;
   font-family: Ubuntu;
+  margin: 0%;
+  padding: 0px;
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
-
+.cogoport-poster{
+  width: 100%;
+}
+.box-main{
+  display: flex;
+  justify-items: center;
+  align-items: center;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
 }
 
-.App-header {
+/* .App-header {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -23,24 +32,32 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-}
+} */
 .first{
-  position: relative;
-  width: 100%;
-  padding-top: 57px;
-  margin-top: -57px;
-  /* background: url(https://cdn.cogoport.io/cms-prod/cogo_public/vault/original/home-banner-background-1.webp); */
-  background-color: var(--color-secondary);
-  background-repeat: no-repeat;
-  background-position: bottom;
-  background-size: 100%;
+  display: flex;
+  align-items: center;
+  height: 392px;
+}
+.supply-chain{
+  display: flex;
+  align-items: center;
+}
+.left-supply-chain{
+  text-align: left;
 }
 .App-link {
   color: #61dafb;
 }
 .first-left{
-  z-index: 100;
+  text-align: left;
+  margin: auto;
 }
+h2{
+  font-size: 40px;
+  line-height: 1.2;
+}
+h3{font-size: 28px;
+    line-height: 1.2;}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

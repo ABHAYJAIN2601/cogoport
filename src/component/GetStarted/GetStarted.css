@@ -1,0 +1,25 @@
+.get-started-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: calc(70%);
+    padding: 16px 100px!important;
+}
+.get-started-left{
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+}
+.get-started-button{
+    display: inline-block;
+    height: 40px;
+    padding: 8px 42px;
+    margin-top: 20px;
+    font-size: 14px;
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+    background-color: #ee3425;
+    border-radius: 8px;
+}
