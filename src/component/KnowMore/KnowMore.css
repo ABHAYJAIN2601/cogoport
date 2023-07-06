@@ -1,14 +1,24 @@
 .know-more-wrapper{
     /* display: flex; */
     /* align-items: center; */
+    /* width: 70%; */
+   
+
 }
 .know-more-footer{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    background-color: red;
+   
+    padding: 10px 130px 10px 130px;
 }
-
+.homepage-video{
+    height: 500px;
+    width: 100%;
+}
 
 .know-more-left{
     text-align: left;
+    /* width: 100%; */
 }

@@ -4,6 +4,8 @@
     justify-content: space-between;
     width: calc(70%);
     padding: 16px 100px!important;
+    margin: auto;
+    margin-top: 50px;
 }
 .get-started-left{
     display: flex;
@@ -21,5 +23,6 @@
     text-align: center;
     cursor: pointer;
     background-color: #ee3425;
+    border: #ee3425;
     border-radius: 8px;
 }

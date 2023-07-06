@@ -1,0 +1,65 @@
+.working-div{
+    width: 70%;
+    display: block;
+    margin: auto;
+}
+.step-point{
+    display: flex;
+    justify-self:center;
+    align-items: center;
+    text-align: left;
+}
+.step-point p{
+    margin: 5px;
+}
+
+.step-box{
+    width: 300px;
+    padding: 16px;
+    border-radius: 10px;
+    box-shadow: 0 1px 6px rgb(169 188 218 / 65%);
+}
+.step-heading{
+    font-weight: 600;
+    color: #ee3425;
+    text-align: left;
+}
+.step-card-header{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    flex-direction: row;
+}
+.step-card-header p{
+    margin:10px;
+}
+.step-image{
+    width: 560px;
+    height: 320px;
+    padding: auto;
+}
+.working-btn{
+    width: 200px;
+    padding: 20px;
+    margin: 0 20px;
+    font-weight: 700;
+    color: #000!important;
+    border: #fbdc00;
+    border-radius: 20px;
+}
+.working-wrapper{
+        
+        position: relative;
+        display: flex;
+    
+}
+
+.steps-middle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.step-box-margin{
+    margin-bottom: 150px;
+}

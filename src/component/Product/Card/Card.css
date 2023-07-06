@@ -20,3 +20,14 @@ px
     line-height: 1.3em;
     text-align: center;
 }
+.find-more{
+    font-weight: 700;
+    color: #ee3425;
+    cursor: pointer;
+}
+.card-footer{
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    align-items: center;
+}

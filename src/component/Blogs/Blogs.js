@@ -26,13 +26,14 @@ const Blogs = () => {
 
     return ( 
         <div className="blog-wrapper">
-            <p className="blogs-heading">Blogs</p>
+            <h3>Blogs</h3>
       
     <div className="blog-container">
         {blogs_data.map((blog)=>{
             return <Blog blog={blog}/>
         })}
     </div> 
+    <button className="see-all-btn">See All</button>
       </div>);
 }
  

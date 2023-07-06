@@ -1,6 +1,8 @@
 .product_category_heading{
     font-size: 24px;
     color: #000;
+    width: 20%;
+    text-align: left;
 }
 .products_container{
     display: flex;
@@ -10,4 +12,11 @@
     display: flex;
     align-items: center;
     margin: 14px 0;
+    justify-content:left;
+}
+.our-product-section{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
 }

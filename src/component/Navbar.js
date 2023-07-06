@@ -15,7 +15,7 @@ function Navbar() {
         <p className='items'>Contact Us</p>
       </div>
         <div className='header-right'>
-          <button>sign up</button>
+          <button className='btn-red'>sign up</button>
         </div>
     </div>
   );
