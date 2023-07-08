@@ -25,6 +25,7 @@ const blogs_data = [
 const Blogs = () => {
 
     return ( 
+        
         <div className="blog-wrapper">
             <h3>Blogs</h3>
       
