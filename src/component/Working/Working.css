@@ -34,8 +34,8 @@
     margin:10px;
 }
 .step-image{
-    width: 560px;
-    height: 320px;
+    width: 440px;
+    height: 270px;
     padding: auto;
 }
 .working-btn{
@@ -49,9 +49,9 @@
 }
 .working-wrapper{
         
-        position: relative;
-        display: flex;
-    
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
 }
 
 .steps-middle{
@@ -63,3 +63,35 @@
 .step-box-margin{
     margin-bottom: 150px;
 }
+
+
+@media (max-width: 820px) {
+   .step-box-margin{
+    margin: 10px;
+   }
+   .working-div{
+    display: 84%;
+   }
+   .steps-middle{
+    order:-1;
+   }
+   .step-image{
+    margin-top: 5px;
+    width: 350px;
+    height: 250px;
+   }
+   .working-wrapper{
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+   }
+   .working-btn{
+    margin: 5px;
+   }
+   .step-box{
+    margin: 10px;
+   }
+   .working-wrapper{
+    margin-top: 50px;
+   }
+  }

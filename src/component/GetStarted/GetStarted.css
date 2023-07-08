@@ -6,6 +6,7 @@
     padding: 16px 100px!important;
     margin: auto;
     margin-top: 50px;
+    margin-bottom: 50px;
 }
 .get-started-left{
     display: flex;
@@ -25,4 +26,22 @@
     background-color: #ee3425;
     border: #ee3425;
     border-radius: 8px;
+}
+
+@media (max-width: 820px) {
+    .get-started-wrapper{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: flex-start;
+        align-items: center;
+        padding: 10px !important;
+        width: fit-content;
+    }
+    .know-more-wrapper{
+        width: 100%;
+    }
+    .get-started-img{
+        width: 368px;
+    }
+    
 }

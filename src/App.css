@@ -4,7 +4,10 @@
   margin: 0%;
   padding: 0px;
 }
-
+.first-right div{
+  margin-top: 10px;
+  height: 70%;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -16,6 +19,15 @@
   display: flex;
   justify-items: center;
   align-items: center;
+  position: relative;
+  width: 100%;
+  padding-top: 57px;
+  margin-top: -57px;
+  /* background: url(https://cdn.cogoport.io/cms-prod/cogo_public/vault/original/home-banner-background-1.webp); */
+  /* background-color: var(--color-secondary); */
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: 100%;
 }
 /* .letter-upper-curve::after{
   position: absolute;
@@ -87,18 +99,21 @@
   border-bottom-right-radius: 0!important;
   outline: none!important;
 }
+/* .first-right div video{
+  height: 106% !important;
+} */
 .btn-input-red{
   width: fit-content;
-    padding: 8px 42px!important;
+    /* padding: 8px 42px!important; */
     font-family: var(--font-family);
-    font-size: 14px!important;
+    font-size: 13px!important;
     font-weight: 700!important;
-    min-width: 72px;
+    min-width: 80px;
     height: 38px;
     background-color: #ee3425;
     border: #ee3425;
     color: white;
-    border-radius: 20px!important;
+    border-radius: 15px!important;
     border-top-left-radius: 0!important;
     border-bottom-left-radius: 0!important;
 }
@@ -129,10 +144,14 @@
   color:#ee3425
 }
 .get-started-section{
-  flex-direction: column;
-    align-items: flex-start;
+  align-items: center;
   background-color: #fbdc00;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 30px;
 
+  margin: 40px 0px 40px 0px;
 }
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -173,7 +192,9 @@
 }
 .first-left{
   text-align: left;
-  margin: auto;
+  /* margin: auto; */
+  margin-left: 274px;
+  margin-right: 200px;
 }
 h2{
   font-size: 40px;
@@ -188,4 +209,60 @@ h3{font-size: 28px;
   to {
     transform: rotate(360deg);
   }
+}
+
+
+@media (max-width: 820px) {
+  .supply-chain-img{
+    width: 350px;
+  }
+  .supply-chain{
+      display: flex;
+      flex-direction: column-reverse;
+      justify-content: flex-start;
+      align-items: center;
+      padding: 10px;
+  }
+  .number-section{
+      display: flex;
+      flex-wrap: wrap;
+      width: 80%;
+      text-align: left;
+      margin-bottom: 30px;
+  }
+  .get-started-section{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-items: flex-start;
+    padding: 0px!important;
+    padding-bottom: 5px!important;
+    margin: 0px!important;
+  }
+  h2{
+      font-size: 24px;
+      line-height: 1.2;
+  }
+  h3{
+    font-size: 14px;
+    line-height: 1.2;
+}
+h1{
+  font-size: 18px;
+  line-height: 1.2;
+}
+.newletter-section{
+  flex-direction: column;
+  padding: 10px;
+}
+.box-main{
+  flex-direction: column-reverse;
+}
+.first-right div{
+  width: 84% !important;
+}
+.first-left {
+  text-align: left;
+  margin: 10px;
+}
 }

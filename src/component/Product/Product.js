@@ -5,14 +5,16 @@ import './Product.css';
 function Product() {
   return (
     <div className='our-product-section bg'>
-        <h3>Our Products</h3>
+        <h2>Our Products</h2>
         <div className='products_container'>
         {product.map((items) => {
             return  (<div className='product_category'>
             <h2 className='product_category_heading'>{items.title}</h2>
+            <div className='product-category-right'>
             {items.sub_product.map((sub_items) => {
               return (
             <Card img_src={items.img_src} product={sub_items}/>)})}
+            </div>
         </div>)
         })}
         </div>

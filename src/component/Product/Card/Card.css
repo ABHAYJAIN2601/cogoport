@@ -14,6 +14,11 @@ px
     border-radius: 10px;
     box-shadow: 0 1px 6px rgb(169 188 218 / 65%);
 }
+.card_category:hover{
+    border-color: #ee3425;
+    border-style: solid;
+   
+}
 .card_heading{
     margin-top: 5px;
     font-size: 16px;
@@ -30,4 +35,18 @@ px
     flex-direction: row;
     justify-items: center;
     align-items: center;
+}
+
+@media (max-width: 820px) {
+    .card_category{
+        width: 105px;
+        margin: 3px;
+    }
+    .card_heading{
+        font-size: 12px;
+    }
+    .know-more-wrapper{
+        width: 100%;
+    }
+    
 }

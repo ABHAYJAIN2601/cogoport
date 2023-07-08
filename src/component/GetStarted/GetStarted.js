@@ -10,7 +10,7 @@ const GetStarted = () => {
             <button className='get-started-button'>Get Started</button>
         </div>
         <div>
-            <img src='./trade-tech-home-1.webp' alt='getStarted'/>
+            <img className='get-started-img'src='./trade-tech-home-1.webp' alt='getStarted'/>
         </div>
     </div> );
 }

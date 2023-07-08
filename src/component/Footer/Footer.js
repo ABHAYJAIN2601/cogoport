@@ -130,9 +130,9 @@ const Footer = () => {
           })}
         </div>
       </div>
-      <div>
+      <div className="footer-lower">
         <p> 2023 Cogo Universe PTE. ALl rights reserved.</p>
-        <p>Terms and Conditions | Cookie policy | Privacy and Data Protection Policy</p>
+        <h6>Terms and Conditions | Cookie policy | Privacy and Data Protection Policy</h6>
         <p>English(IN)</p>
       </div>
     </div>
