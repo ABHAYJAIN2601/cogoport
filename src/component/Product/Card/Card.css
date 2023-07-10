@@ -42,8 +42,12 @@ px
         width: 105px;
         margin: 3px;
     }
-    .card_heading{
+    .find-more{
+        font-weight: 700;
         font-size: 12px;
+    }
+    .card_heading{
+        font-size: 14px;
     }
     .know-more-wrapper{
         width: 100%;

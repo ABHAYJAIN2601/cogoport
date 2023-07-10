@@ -5,7 +5,7 @@ const Working = () => {
     <div className="working-div">
         <div>
             <h1>How it Works</h1>
-            <div>
+            <div className="working-btns">
                 <button className="working-btn">For Cargo Owners</button>
                 <button className="working-btn">For Logistics Partners</button>
             </div>

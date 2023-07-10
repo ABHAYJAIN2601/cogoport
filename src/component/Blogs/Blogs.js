@@ -27,14 +27,14 @@ const Blogs = () => {
     return ( 
         
         <div className="blog-wrapper">
-            <h3>Blogs</h3>
+            <h2>Blogs</h2>
       
     <div className="blog-container">
         {blogs_data.map((blog)=>{
             return <Blog blog={blog}/>
         })}
     </div> 
-    <button className="see-all-btn">See All</button>
+    <button className="see-all-btn">{"See All->"}</button>
       </div>);
 }
  

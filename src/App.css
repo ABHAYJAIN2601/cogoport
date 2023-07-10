@@ -1,12 +1,22 @@
 .App {
-  text-align: center;
+  /* text-align: center; */
   font-family: Ubuntu;
   margin: 0%;
   padding: 0px;
+  line-height: 1.5;
 }
 .first-right div{
   margin-top: 10px;
-  height: 70%;
+  /* height: 70%; */
+}
+.first-right{
+  /* width: 40%; */
+  /* display: inline-block;  */
+}
+.stats{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 .App-logo {
   height: 40vmin;
@@ -17,12 +27,14 @@
 }
 .box-main{
   display: flex;
-  justify-items: center;
+  flex-direction: row;
+  justify-content: center;
   align-items: center;
-  position: relative;
+  /* position: relative; */
   width: 100%;
-  padding-top: 57px;
-  margin-top: -57px;
+  /* padding-top: 57px; */
+  margin-left: auto;
+  margin-right: auto;
   /* background: url(https://cdn.cogoport.io/cms-prod/cogo_public/vault/original/home-banner-background-1.webp); */
   /* background-color: var(--color-secondary); */
   background-repeat: no-repeat;
@@ -117,6 +129,21 @@
     border-top-left-radius: 0!important;
     border-bottom-left-radius: 0!important;
 }
+.btn-input-green{
+  width: fit-content;
+  /* padding: 8px 42px!important; */
+  font-family: var(--font-family);
+  font-size: 13px!important;
+  font-weight: 700!important;
+  min-width: 80px;
+  height: 38px;
+  background-color: #36bb22;
+  border: #36bb22;
+  color: white;
+  border-radius: 15px!important;
+  border-top-left-radius: 0!important;
+  border-bottom-left-radius: 0!important;
+}
 .btn-red{
   width: fit-content;
     padding: 8px 42px!important;
@@ -131,6 +158,9 @@
 }
 .bg{
   background-color: #fffef2;
+}
+.text-align{
+  text-align: center;
 }
 .number-section{
   display: flex;
@@ -153,6 +183,72 @@
 
   margin: 40px 0px 40px 0px;
 }
+.normal-container{
+  background-color: rgba(248,219,5,255);
+  height: 100px;
+  margin-top: 50px;
+  width: 100%;
+}
+.info-container {
+  display: flex;
+  align-items: center;
+  width: fit-content;
+  height: 40px;
+  background-color: white;
+  /* margin-left: 10px;
+  margin-right: 250px; */
+  border-radius: 30px;
+  padding: 3px;
+}
+
+.dropdown {
+  margin-right: 10px;
+  width: 50px;
+  height: 25px;
+  border-color: white;
+  background-color: white;
+  font-size: 12px;
+}
+.whatsapp-logo{
+  /* position: absolute; */
+    /* top: 10px; */
+    /* left: 12px; */
+    width: 20px;
+    height: 20px;
+    margin-left: 5px;
+}
+.whatsapp-number {
+  margin-right: 10px;
+  font-size: 12px;
+  font-family: Arial;
+  width: 100px;
+  height:15px;
+  margin-top: -2px;
+  border-radius: 30px;
+  border-color: white;
+  border-style: solid;
+}
+.get-started-button-home {
+  background-color: #36bb22;
+  color: #fff;
+  font-size:14px;
+  font-weight: 700;
+  cursor: pointer;
+  border-radius: 20px;
+  border: none;
+  width: 90px;
+  height: 25px;
+  margin-left: 70px;
+}
+.curved-container {
+  background-color:white;
+  border-radius: 0 0 100% 100% /200px;
+  /* padding: 20px; */
+  height: 100px;
+  text-align: center;
+  width: 100%;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -183,6 +279,8 @@
 }
 .left-supply-chain{
   text-align: left;
+  font-size: 24px;
+  font-weight: bold;
 }
 .supply-chain-img{
   width: 500px;
@@ -192,9 +290,11 @@
 }
 .first-left{
   text-align: left;
+  /* width:40%; */
+  /* display: inline-block;  */
   /* margin: auto; */
-  margin-left: 274px;
-  margin-right: 200px;
+  /* margin-left: 274px;
+  margin-right: 200px; */
 }
 h2{
   font-size: 40px;
@@ -222,12 +322,13 @@ h3{font-size: 28px;
       justify-content: flex-start;
       align-items: center;
       padding: 10px;
+      width: 92%;
   }
   .number-section{
       display: flex;
       flex-wrap: wrap;
       width: 80%;
-      text-align: left;
+      text-align: center;
       margin-bottom: 30px;
   }
   .get-started-section{
@@ -239,8 +340,9 @@ h3{font-size: 28px;
     padding-bottom: 5px!important;
     margin: 0px!important;
   }
+
   h2{
-      font-size: 24px;
+      font-size: 20px;
       line-height: 1.2;
   }
   h3{
@@ -248,7 +350,7 @@ h3{font-size: 28px;
     line-height: 1.2;
 }
 h1{
-  font-size: 18px;
+  font-size: 24px;
   line-height: 1.2;
 }
 .newletter-section{
@@ -260,6 +362,7 @@ h1{
 }
 .first-right div{
   width: 84% !important;
+  margin: auto;
 }
 .first-left {
   text-align: left;

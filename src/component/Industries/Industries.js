@@ -35,13 +35,13 @@ const Industries = () => {
             <div className='test-industry'>
 
           
-            <h3>Industries Served</h3>
+            <h2>Industries Served</h2>
             <div className="industry_container">
             {industry.map((item)=>{
             return<div>
                 <div>
                 <img src = {item.img_src} alt = {item.name}/>
-                <p>{item.name}</p>
+                <p className='industry-title'>{item.name}</p>
                 </div>
             </div>})}
             </div>
