@@ -1,3 +1,13 @@
+
+# Things can be done
+1) Some element are not in position like signup bottom
+2) Footer section needs to be modify little bit
+3) Some css class can be removed
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

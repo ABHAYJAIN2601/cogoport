@@ -1,5 +1,4 @@
 import "./Footer.css";
-import Products from "./footer_data";
 const data1 = [
   "Mandideep (IN) to Le Havre",
   "Mandideep (IN) to Puerto Quetzal",
