@@ -6,7 +6,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    /* width: 100%; */
     padding: 8px 16px;
     font-weight: 500;
     background-color: #fbdc00;
@@ -30,9 +29,6 @@
 }
 .background-section{
     background: url('../../../public/home-banner-background-1.webp');
-    /* background-color: #fbdc00; */
-    /* background-size: cover; */
-    /* background-blend-mode: darken; */
 }
 .items{
     display: flex;
